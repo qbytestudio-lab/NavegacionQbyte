@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+/* FONDO */
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #e6f0ff, #ffffff);
-    margin: 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  height: 100vh;
+  background: linear-gradient(135deg, #0ac2e24f, #02108f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
 }
+
 
 /* Caja centrada */
 .container {
