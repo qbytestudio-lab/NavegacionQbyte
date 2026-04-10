@@ -1,0 +1,94 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #1a2238;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Contenedor */
+main {
+    width: 90%;
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+/* Secciones */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Pentagrama */
+.pentagrama {
+    border: 2px solid #333;
+}
+
+/* Cada pregunta */
+.nota {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Select */
+select {
+    margin-top: 8px;
+    padding: 8px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Botón */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #4a90e2;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+/* Volver */
+.volver {
+    text-align: center;
+}
+
+.volver a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1a2238;
+    color: white;
+    margin-top: 20px;
+}

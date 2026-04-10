@@ -1,0 +1,96 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background-color: #1f2a44;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* SECCIONES TIPO TARJETA */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* TÍTULOS */
+h2 {
+    margin-bottom: 10px;
+    color: #1f2a44;
+}
+
+/* LISTAS */
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+/* BOTÓN DE CLASE */
+.boton-clase {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.boton-clase:hover {
+    background-color: #357abd;
+}
+
+/* EFECTO LINKS EJERCICIOS */
+#ejercicios a {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: #eef3ff;
+    margin-top: 5px;
+}
+
+#ejercicios a:hover {
+    background-color: #dbe7ff;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1f2a44;
+    color: white;
+    margin-top: 20px;
+}
