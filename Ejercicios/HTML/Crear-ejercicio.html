@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Nuevo Ejercicio | QByte</title>
+    <link rel="stylesheet" href="../CSS/Crear.css">
+</head>
+<body>
+
+<header>
+    <h1>NUEVO EJERCICIO</h1>
+    <p>Panel de configuración de material musical</p>
+</header>
+
+<main>
+    <section class="form-container">
+        <h2>Detalles del Ejercicio</h2>
+        <form action="../../Clases/HTML/Refuerzo-doc.html" method="get">
+            
+            <div class="input-group">
+                <label for="nombre-ej">Nombre del Ejercicio:</label>
+                <input type="text" id="nombre-ej" placeholder="Ej: Práctica de Intervalos" required>
+            </div>
+
+            <div class="input-group">
+                <label for="tipo-ej">Tipo de Ejercicio:</label>
+                <select id="tipo-ej">
+                    <option value="lectura">Lectura de Partitura</option>
+                    <option value="auditivo">Entrenamiento Auditivo</option>
+                    <option value="teoria">Teoría Musical</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="desc-ej">Instrucciones para el estudiante:</label>
+                <textarea id="desc-ej" rows="4" placeholder="Escribe aquí las instrucciones..."></textarea>
+            </div>
+
+            <div class="input-group">
+                <label>Subir Recurso (PDF/Imagen):</label>
+                <input type="file" class="file-input">
+            </div>
+
+            <div class="actions">
+                <button type="submit" class="btn-save">Guardar Ejercicio</button>
+            </div>
+
+        </form>
+    </section>
+
+    <section class="volver">
+        <a href="../../Clases/HTML/">⬅ Cancelar y Volver</a>
+    </section>
+</main>
+
+<footer>
+    <p>Plataforma de aprendizaje musical | Gestión de Contenido</p>
+</footer>
+
+</body>
+</html>

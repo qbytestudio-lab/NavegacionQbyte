@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #0ac2e24f, #02108f);
+    font-family: 'Arial', sans-serif;
+    color: white;
+    overflow: hidden; /* Mantiene la estética de una sola pantalla */
+}
+
+/* HEADER Y NAVBAR */
+header {
+    width: 100%;
+    padding: 20px 50px;
+    position: absolute;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+/* BOTONES SUPERIOR DERECHA */
+.nav-links a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-login {
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-login:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-register {
+    background: #0f5ae6ad;
+    color: white;
+}
+
+.btn-register:hover {
+    background: #0c63e6;
+}
+
+/* CONTENIDO PRINCIPAL (HERO) */
+.hero-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.hero-content p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    opacity: 0.9;
+}
+
+/* BOTÓN DE ACCIÓN PRINCIPAL */
+.btn-main {
+    text-decoration: none;
+    background: white;
+    color: #02108f;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.btn-main:hover {
+    transform: scale(1.05);
+    background: #f0f0f0;
+}

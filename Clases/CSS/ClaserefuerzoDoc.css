@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* RESET Y BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER ESTILO QBYTE */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+
+/* CONTENEDOR */
+main {
+    width: 90%;
+    max-width: 850px;
+    margin: 30px auto;
+}
+
+/* TARJETAS */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border: 1px solid #e1e8ed;
+}
+
+/* TITULOS DE SECCIÓN */
+h2 {
+    color: #2c3e50;
+    font-size: 22px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* ESTRUCTURA FLEX PARA CABECERAS CON BOTÓN */
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* --- ESTILO UNIFICADO DE BOTONES --- */
+button, .btn-main, .btn-add, .btn-edit-small {
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+button:hover, .btn-main:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* COLORES ESPECÍFICOS MANTENIENDO TU LÓGICA */
+.btn-edit-small { 
+    background-color: #f39c12; /* Naranja */
+    color: white;
+}
+
+.btn-add { 
+    background-color: #27ae60; /* Verde */
+    color: white;
+}
+
+.btn-exercise {
+    background-color: #5CB6F9; /* Azul Ejercicios */
+    color: white;
+    margin-right: 10px;
+}
+
+/* PANEL DE GESTIÓN (RECUADRO AZUL) */
+.admin-panel {
+    border: 2px dashed #5CB6F9;
+    background-color: #f0f8ff;
+}
+
+.admin-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.admin-buttons button {
+    background-color: #2c3e50; /* Gris oscuro profesional */
+    color: white;
+}
+
+/* BOTÓN GUARDAR CAMBIOS */
+.envio button {
+    background-color: #2ecc71;
+    width: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* EFECTO LINKS EJERCICIOS (Estilo Botón Perfil) */
+#ejercicios ul {
+    list-style: none; /* Quita los puntos de la lista */
+    margin-top: 15px;
+}
+
+#ejercicios li {
+    margin-bottom: 12px;
+}
+
+#ejercicios a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5CB6F9; /* El azul claro de tu paleta */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px; /* Bordes redondeados como en la imagen */
+    font-weight: bold;
+    font-size: 14px;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sutil sombra para dar relieve */
+}
+
+/* Efecto al pasar el mouse */
+#ejercicios a:hover {
+    background-color: #334DE5; /* Cambio a tu azul principal al hacer hover */
+    transform: translateY(-2px); /* Pequeño salto hacia arriba */
+}
+
+/* Para el Docente: Estilo de las acciones (Editar/Eliminar) */
+.admin-actions {
+    margin-left: 15px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.admin-actions a {
+    background-color: transparent !important; /* Quita el fondo de botón a las acciones de texto */
+    color: #e74c3c !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+}
+
+.admin-actions a:first-child {
+    color: #3498db !important;
+}
+.admin-actions a {
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.admin-actions a:first-child { color: #3498db; } /* Editar */
+.admin-actions a:last-child { color: #e74c3c; }  /* Eliminar */
+
+/* BOTÓN VOLVER */
+.volver a {
+    display: block;
+    text-align: center;
+    color: #7f8c8d;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.volver a:hover {
+    color: #2c3e50;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}

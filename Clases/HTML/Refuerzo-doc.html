@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel Docente - Clase Refuerzo-01</title>
+    <link rel="stylesheet" href="../CSS/ClaserefuerzoDoc.css">
+</head>
+<body>
+
+<header>
+    <h1>Clase Refuerzo-01 (ADMIN)</h1>
+    <p>Panel de Gestión del Docente</p>
+</header>
+
+<main>
+
+    <section class="info-clase">
+        <div class="header-section">
+            <h2>Información de la clase</h2>
+            <button class="btn-edit-small">✏️ Editar Info</button>
+        </div>
+        <p>En esta clase reforzarás conceptos básicos de teoría musical y práctica instrumental.</p>
+    </section>
+ 
+    <section id="ejercicios">
+        <div class="header-section">
+            <h2>📝 Ejercicios Disponibles</h2>
+           <a href="../../Ejercicios/HTML/crear-ejercicio.html" class="btn-add">+ Añadir Ejercicio</a>
+            
+        </div>
+        <p>Gestiona los ejercicios publicados para los estudiantes:</p>
+
+        <ul>
+            <li>
+                <a href="../../Ejercicios/HTML/Tipo1.html">Ejercicio Tipo 1</a>
+                <span class="admin-actions"> ( <a href="#">Editar</a> | <a href="#">Eliminar</a> )</span>
+            </li>
+            <li>
+                <a href="../../Ejercicios/HTML/Tipo2.html">Ejercicio Tipo 2</a>
+                <span class="admin-actions"> ( <a href="#">Editar</a> | <a href="#">Eliminar</a> )</span>
+            </li>
+        </ul>
+    </section>
+
+    <section class="admin-panel">
+        <h2>👥 Gestión de Estudiantes</h2>
+        <div class="admin-buttons">
+            <button onclick="location.href='lista-estudiantes.html'">Ver Lista de Estudiantes</button>
+            <button onclick="location.href='../../Evaluacion/evaluacion1.html'">Calificar Pendientes</button>
+        </div>
+    </section>
+
+    <section class="envio">
+        <button style="background-color: #28a745;">Guardar Cambios en la Clase</button>
+    </section>
+
+    <section class="volver">
+        <a href="../../Docente/docente.html">⬅ Volver al Panel Principal</a>
+    </section>
+
+</main>
+
+<footer>
+    <p>Plataforma de aprendizaje musical | Perfil Docente</p>
+</footer>
+
+</body>
+</html>

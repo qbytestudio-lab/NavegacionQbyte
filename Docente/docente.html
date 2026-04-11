@@ -1,53 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
-    <title>Docente</title>
-    <link rel="stylesheet" href="../Docente/docente.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Docente | Auditory Training</title>
+    <link rel="stylesheet" href="./docente.css">
 </head>
-
 <body>
 
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <h2 class="logo-text">ADMIN</h2>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Mis Clases</a></li>
+                    <li><a href="#">Estudiantes</a></li>
+                    <li><a href="#">Reportes</a></li>
+                    <li><a href="../index.html">Cerrar Sesión</a></li>
+                </ul>
+            </nav>
+        </aside>
 
-  <div class="container">
-    <h1>Panel Docente</h1>
+        <main class="main-content">
+            <header class="content-header">
+                <h1>Gestión de Clases Existentes</h1>
+                <button class="btn-new">+ Crear Nueva Clase</button>
+            </header>
 
-    <form class="form-grid">
+          
 
-        <div>
-            <label>ID Docente:</label>
-            <input type="text">
-        </div>
+                <div class="class-card">
+                    <div class="card-tag">Intermedio</div>
+                    <h3>Intervalos de Cuarta y Quinta</h3>
+                    <p>Práctica auditiva con saltos melódicos y armónicos.</p>
+                    <div class="card-footer">
+                        <span>8 Estudiantes</span>
+                        <a href="../Clases/HTML/Refuerzo-doc.html" class="btn-edit">Editar</a>
+                    </div>
+                </div>
 
-        <div>
-            <label>Nombre:</label>
-            <input type="text">
-        </div>
-
-        <div>
-            <label>Especialidad:</label>
-            <input type="text">
-        </div>
-
-        <div>
-            <label>Correo:</label>
-            <input type="email">
-        </div>
-
-    </form>
-
-    <div class="buttons">
-        <button type="submit">Guardar</button>
-        <button>Cancelar</button>
+                <div class="class-card">
+                    <div class="card-tag">Avanzado</div>
+                    <h3>Acordes de Séptima</h3>
+                    <p>Análisis auditivo de tensiones y resoluciones.</p>
+                    <div class="card-footer">
+                        <span>5 Estudiantes</span>
+                        <a href="#" class="btn-edit">Editar</a>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
 
-    <br>
-
-    <a href="../Menu.html/Principal.html">
-        <button>Volver</button>
-    </a>
-</div>
 </body>
-
 </html>
