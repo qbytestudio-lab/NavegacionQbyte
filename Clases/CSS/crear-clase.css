@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f7f9; /* Fondo gris claro consistente */
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #2c3e50; /* Header oscuro de tus capturas */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+/* --- TARJETAS (ESTILO CARDS) --- */
+.card-config {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06); /* Sombra suave idéntica */
+    border: 1px solid #eef2f5;
+}
+
+/* Estilo con borde punteado azul para gestión */
+.card-dashed {
+    border: 2px dashed #5CB6F9;
+    background-color: #f0f8ff;
+}
+
+.header-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-card h2 {
+    color: #2c3e50;
+    font-size: 22px;
+}
+
+.badge-naranja {
+    background: #f39c12; /* Color de "Editar Info" */
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* --- FORMULARIOS --- */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.input-group input, .input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dcdde1;
+    border-radius: 8px;
+    font-family: inherit;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #5CB6F9;
+}
+
+.opciones-check {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.check-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+}
+
+/* --- BOTONES --- */
+.btn-confirmar {
+    width: 100%;
+    background-color: #27ae60; /* Verde de éxito "Guardar Cambios" */
+    color: white;
+    padding: 18px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(39, 174, 96, 0.2);
+    transition: 0.3s;
+}
+
+.btn-confirmar:hover {
+    background-color: #219150;
+    transform: translateY(-2px);
+}
+
+.volver-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.volver-link a {
+    color: #3d85d8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #7f8c8d;
+    font-size: 13px;
+}

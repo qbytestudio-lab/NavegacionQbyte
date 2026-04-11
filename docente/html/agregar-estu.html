@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>QByte - Inscribir Estudiante</title>
+    <link rel="stylesheet" href="../css/agregar-estu.css">
+</head>
+<body>
+
+<header>
+    <h1>QByte Platform - ADMIN</h1>
+</header>
+
+<main>
+    <section class="form-card">
+        <h2>👥 Inscribir Nuevo Estudiante</h2>
+        <p class="instruccion">Escribe el correo electrónico del estudiante registrado en la plataforma para añadirlo a tu clase:</p>
+        
+        <form action="lista-estudiantes.html" method="get">
+            <div class="input-group">
+                <label for="correo-inscribir">Correo del Estudiante:</label>
+                <input type="email" id="correo-inscribir" placeholder="Ej: nombre@musica.com" required>
+            </div>
+
+            <div class="actions">
+                <button type="submit" class="btn-submit">Añadir Estudiante</button>
+            </div>
+        </form>
+    </section>
+
+    <div class="volver">
+        <a href="lista-estudiantes.html">⬅ Cancelar y volver a la lista</a>
+    </div>
+</main>
+
+<footer>
+    <p>Plataforma de aprendizaje musical | Gestión de Usuarios</p>
+</footer>
+
+</body>
+</html>

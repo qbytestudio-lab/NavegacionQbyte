@@ -3,58 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <title>Crear Nuevo Ejercicio | QByte</title>
-    <link rel="stylesheet" href="../CSS/Crear.css">
+    <link rel="stylesheet" href="../css/Crear.css">
 </head>
 <body>
 
 <header>
-    <h1>NUEVO EJERCICIO</h1>
-    <p>Panel de configuración de material musical</p>
+    <h1>CREAR NUEVO EJERCICIO</h1>
+    <p>Diseña el contenido para tus estudiantes</p>
 </header>
 
 <main>
-    <section class="form-container">
-        <h2>Detalles del Ejercicio</h2>
-        <form action="../../Clases/HTML/Refuerzo-doc.html" method="get">
-            
-            <div class="input-group">
-                <label for="nombre-ej">Nombre del Ejercicio:</label>
-                <input type="text" id="nombre-ej" placeholder="Ej: Práctica de Intervalos" required>
-            </div>
+    <section class="card-pregunta">
+        <div class="card-header">
+            <h2>🎼 Configuración de Pregunta</h2>
+        </div>
+        <div class="input-box">
+            <label>Instrucción del ejercicio:</label>
+            <input type="text" placeholder="Ej: Observa las notas y selecciona la correcta...">
+        </div>
+        <div class="input-highlight">
+            <label>Contenido / Pista visual (Texto):</label>
+            <textarea rows="2" placeholder="Ej: Armadura: 2 sostenidos (Fa# - Do#)"></textarea>
+        </div>
+    </section>
 
-            <div class="input-group">
-                <label for="tipo-ej">Tipo de Ejercicio:</label>
-                <select id="tipo-ej">
-                    <option value="lectura">Lectura de Partitura</option>
-                    <option value="auditivo">Entrenamiento Auditivo</option>
-                    <option value="teoria">Teoría Musical</option>
-                </select>
+    <section class="card-opciones">
+        <div class="card-header">
+            <h3>🎵 Definir Opciones</h3>
+        </div>
+        <p class="ayuda">Escribe las opciones y marca la(s) que sea(n) correcta(s):</p>
+        
+        <form id="form-crear">
+            <div class="option-item-create">
+                <input type="checkbox" title="Marcar como correcta"> 
+                <input type="text" placeholder="Opción 1">
             </div>
-
-            <div class="input-group">
-                <label for="desc-ej">Instrucciones para el estudiante:</label>
-                <textarea id="desc-ej" rows="4" placeholder="Escribe aquí las instrucciones..."></textarea>
+            <div class="option-item-create">
+                <input type="checkbox" title="Marcar como correcta"> 
+                <input type="text" placeholder="Opción 2">
             </div>
-
-            <div class="input-group">
-                <label>Subir Recurso (PDF/Imagen):</label>
-                <input type="file" class="file-input">
+            <div class="option-item-create">
+                <input type="checkbox" title="Marcar como correcta"> 
+                <input type="text" placeholder="Opción 3">
             </div>
-
-            <div class="actions">
-                <button type="submit" class="btn-save">Guardar Ejercicio</button>
+            <div class="option-item-create">
+                <input type="checkbox" title="Marcar como correcta"> 
+                <input type="text" placeholder="Opción 4">
             </div>
-
         </form>
     </section>
 
-    <section class="volver">
-        <a href="../../Clases/HTML/">⬅ Cancelar y Volver</a>
+    <section class="card-acciones">
+        <form action="../../clases/html/refuerzo-doc.html" method="get">
+    
+    <section class="card-acciones">
+        <button type="submit" class="btn-save">Publicar Ejercicio en la Clase</button>
+    </section>
+</form>
+    </section>
+
+    <section class="card-back">
+        <a href="../../clases/html/refuerzo-doc.html" class="btn-back">⬅ Cancelar y volver al panel</a>
     </section>
 </main>
 
 <footer>
-    <p>Plataforma de aprendizaje musical | Gestión de Contenido</p>
+    <p>Plataforma de aprendizaje musical | Panel de Gestión Docente</p>
 </footer>
 
 </body>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Ejercicio | QByte</title>
+    <link rel="stylesheet" href="../css/Editar.css">
+</head>
+<body>
+
+<header>
+    <h1>EDITAR EJERCICIO</h1>
+    <p>Modifica los parámetros del material musical</p>
+</header>
+
+<main>
+    <section class="card-question">
+        <h2>🎼 Editar Pregunta / Contenido</h2>
+        <p>Ajusta el enunciado principal que verá el estudiante:</p>
+        <div class="input-highlight">
+            <textarea id="pregunta-texto">Observa la siguiente armadura de clave y selecciona las notas que pertenecen a ella:
+                Armadura: 2 sostenidos (Fa# - Do#)
+            </textarea>
+        </div>
+    </section>
+
+    <section class="card-options">
+        <h3>🎵 Configuración de Respuestas</h3>
+        <p>Define las opciones disponibles y marca las correctas:</p>
+        
+        <form action="../../clases/html/refuerzo-doc.html" method="get">
+            <div class="option-item">
+                <input type="checkbox" checked > 
+                <input type="text" value="Do">
+            </div>
+            <div class="option-item">
+                <input type="checkbox" checked > 
+                <input type="text" value="Re">
+            </div>
+            <div class="option-item">
+                <input type="checkbox" checked> 
+                <input type="text" value="Fa#">
+            </div>
+            <div class="option-item">
+                <input type="checkbox" checked > 
+                <input type="text" value="Sol">
+            </div>
+            <div class="option-item">
+                <input type="checkbox" checked> 
+                <input type="text" value="Do#">
+            </div>
+
+            <div class="actions-container">
+                <button type="submit" class="btn-submit">Guardar Cambios</button>
+            </div>
+        </form>
+    </section>
+
+    <section class="card-back">
+        <a href="../../clases/html/refuerzo-doc.html" class="btn-back">⬅ Volver a clase</a>
+    </section>
+</main>
+
+<footer>
+    <p>Plataforma de aprendizaje musical | Perfil Docente</p>
+</footer>
+
+</body>
+</html>
