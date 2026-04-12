@@ -9,7 +9,7 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(135deg, #0ac2e24f, #02108f);
+    background: linear-gradient(135deg, #334DE5, #5CB6F9);
     font-family: 'Arial', sans-serif;
     color: white;
     overflow: hidden; /* Mantiene la estética de una sola pantalla */

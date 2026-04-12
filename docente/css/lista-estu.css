@@ -8,16 +8,17 @@
 }
 
 body {
-    background-color: #f4f7f9;
+    background: linear-gradient(135deg, #5CB6F9, #334DE5);
     font-family: 'Roboto', sans-serif;
     color: #333;
 }
 
 header {
-    background-color: #2c3e50;
+    background-color: #5CB6F9;
     color: white;
     padding: 20px;
     text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 header h1 {
@@ -37,7 +38,7 @@ main {
     background: white;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 2);
 }
 
 .header-section {
@@ -76,7 +77,7 @@ main {
 }
 
 .user-table thead tr {
-    background-color: #2c3e50; /* Gris oscuro header de tu imagen */
+    background-color: #334DE5; /* Gris oscuro header de tu imagen */
     color: white;
     text-align: center;
 }
